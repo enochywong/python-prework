@@ -44,3 +44,11 @@ def fun(num):
 def funb(num):
     return num*2
 print(fun(5) + funb(5))
+
+number = 1
+while number < 101:
+        if number % 2 == 1:
+            print(number)
+            number += 1
+        else:
+            number += 1

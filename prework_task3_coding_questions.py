@@ -4,8 +4,10 @@
 
 def hello_name(username):
     """Display username from user input"""
-    username = input("Please enter username:")
-    print(f"Hello {username}!")
+    print(f"Hello {username.title()}!")
+
+
+hello_name("john")
 
 
 # Question 2
@@ -29,6 +31,7 @@ def max_num_in_list(a_list):
     """Return the max number of a given list"""
     max_number = max(a_list)
     return max_number
+
 
 # Question 4
 # Write a function to return if the given year is a leap year. 
